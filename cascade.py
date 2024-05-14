@@ -4,6 +4,11 @@ from time import sleep, time
 import numpy as np
 import copy 
 
+"""
+This is the cascade algorithm.
+It is a quantum error correction algorithm that uses a cascade of binary algorithms to correct errors in a key.
+"""
+
 def generate_key(N, seed = None):
     """
     Generate a key of length N using a seed.
